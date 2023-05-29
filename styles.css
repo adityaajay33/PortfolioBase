@@ -1,0 +1,72 @@
+
+.header{
+    position:fixed;
+    width: 1000px;
+    display:flex;
+    z-index:1;
+    background-color: white;
+    justify-content: space-evenly;
+}
+.container{
+    
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    gap:20px;
+    padding: 0px 10px 0px 10px;
+    flex-direction: row;
+}
+.header1{
+    padding-right: 300px;
+    font-size: 25px;
+}
+.logo{
+    display:flex;
+    align-items: center;
+    margin: 10px 0px 5px 10px;
+}
+.container > button{
+    margin-top: 20px;
+}
+.page-content-portfolio{
+    padding: 100px 25px 25px 25px;
+}
+.heading1{
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-weight: 400px;
+}
+.portfolioson{
+    display: flex;
+    justify-content: row;
+    flex-wrap: wrap;
+    
+}
+.card{
+    display:flex;
+    margin-right: 25px;
+    
+}
+li{
+    list-style-type: none;
+}
+.page-content-index{
+
+    padding-top: 100px;
+}
+
+.pic-container {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.text-img {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-weight: 800;
+}
