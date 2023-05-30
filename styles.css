@@ -52,7 +52,7 @@ li{
 }
 .page-content-index{
 
-    padding-top: 100px;
+    padding-top: 65px;
 }
 
 .pic-container {
@@ -64,9 +64,11 @@ li{
 
 .text-img {
     position: absolute;
+    text-align: left;
     top: 50%;
-    left: 20%;
-    transform: translate(-50%, -50%);
+    left: 10%;
+    transform: translate(-10%, -50%);
     font-size: 80px;
     font-weight: 800;
+    margin-left: 30px;
 }
