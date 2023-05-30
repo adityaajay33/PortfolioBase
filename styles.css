@@ -1,11 +1,11 @@
 
 .header{
     position:fixed;
-    width: 1000px;
+    max-width: 4400px;
     display:flex;
     z-index:1;
     background-color: white;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .container{
     
@@ -15,10 +15,17 @@
     gap:20px;
     padding: 0px 10px 0px 10px;
     flex-direction: row;
+    right: 10%;
+    width:1500px;
+    margin-left: 50px;
 }
 .header1{
-    padding-right: 300px;
     font-size: 25px;
+    width: 100px;
+    padding-right: 60px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
 }
 .logo{
     display:flex;
@@ -27,6 +34,7 @@
 }
 .container > button{
     margin-top: 20px;
+    display: flex;
 }
 .page-content-portfolio{
     padding: 100px 25px 25px 25px;
@@ -44,7 +52,7 @@
 }
 .card{
     display:flex;
-    margin-right: 25px;
+    margin: 0px 25px 25px 0px;
     
 }
 li{
@@ -68,7 +76,23 @@ li{
     top: 50%;
     left: 10%;
     transform: translate(-10%, -50%);
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: 800;
     margin-left: 30px;
+}
+
+.text-img1 {
+    position: absolute;
+    text-align: left;
+    top: 80%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.talent-introduction{
+    display: grid;
+    grid-template-columns: 600px 710px;
+    grid-template-rows: 500px;
 }
