@@ -93,6 +93,6 @@ li{
 }
 .talent-introduction{
     display: grid;
-    grid-template-columns: 600px 710px;
+    grid-template-columns: 1310px;
     grid-template-rows: 500px;
 }
