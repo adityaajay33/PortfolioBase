@@ -84,15 +84,24 @@ li{
 .text-img1 {
     position: absolute;
     text-align: left;
-    top: 80%;
-    left: 10%;
+    top: 72%;
+    left: 11%;
     transform: translate(-10%, -50%);
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 600;
     margin-left: 30px;
 }
 .talent-introduction{
     display: grid;
     grid-template-columns: 1310px;
-    grid-template-rows: 500px;
+    grid-template-rows: 450px;
+}
+
+.registration-details {
+    color:blue;
+    height:400px;
+    width: 1310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
