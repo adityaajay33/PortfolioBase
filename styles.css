@@ -3,7 +3,7 @@
     position:fixed;
     max-width: 4400px;
     display:flex;
-    z-index:1;
+    z-index: 2;
     background-color: white;
     justify-content: space-between;
 }
@@ -64,6 +64,17 @@ li{
 }
 
 .pic-container {
+
+    height:600px;
+    width: 1310px;
+    background: #2199e9;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom right, rgb(137, 225, 236), rgb(15, 127, 161));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom right, rgb(137, 225, 236), rgb(15, 127, 161));
+
     position: relative;
     text-align: center;
     color: white;
@@ -104,4 +115,67 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+    
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.registration-form-box{
+    height:800px;
+    width: 1310px;
+    background: #2199e9;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom right, rgb(137, 225, 236), rgb(15, 127, 161));
+    
+    background: linear-gradient(to bottom right, rgb(137, 225, 236), rgb(15, 127, 161));
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.registration-form{
+
+    display: grid;
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    border: solid grey 1px;
+    grid-template-columns: 185px 185px;
+    grid-template-rows: 50px repeat(6 91px);
+    gap: 15px;
+}
+
+.registration-form > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.talent-introduction-box1{
+    height:500px;
+    width: 1310px;
+    background: #2199e9;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to top right, rgb(137, 225, 236), rgb(15, 127, 161));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to top right, rgb(137, 225, 236), rgb(15, 127, 161));
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#blue-wave{
+    position: absolute;
+    z-index: 1;
+    top: 80%;
 }
