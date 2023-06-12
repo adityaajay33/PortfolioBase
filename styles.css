@@ -151,6 +151,8 @@ li{
     grid-template-columns: 185px 185px;
     grid-template-rows: 50px repeat(6 91px);
     gap: 15px;
+    border-radius: 5%;
+    box-shadow: 10px 10px rgb(60, 60, 61);
 }
 
 .registration-form > *{
@@ -177,5 +179,5 @@ li{
 #blue-wave{
     position: absolute;
     z-index: 1;
-    top: 80%;
+    top: 75%;
 }
