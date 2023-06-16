@@ -15,9 +15,10 @@
             <a href="./index.html"><img class="logo" src="./assets/Lead-Symbol.jpg" height="50px"></a>
         </div>
         <div class="container">
-
-            <li> <button type="button" class="btn btn-secondary">About Us</button></li>
-            <li> <a href='./portfolios.html'><button type="button" class="btn btn-secondary">Browse</button> </a> </li>
+            <li> <form class="form-inline my-2 my-lg-0" style="display: flex;">
+              <input class="form-control mr-sm-2" type="search" placeholder="Browse our selection..." aria-label="Search" style="margin: 10px;">
+            </form> </li>
+            <li> <a href='./portfolios.html'><button type="button" class="btn btn-secondary">Browse Portfolios</button> </a> </li>
             <li> <button type="button" class="btn btn-secondary">Log In</button></li>
             <li>
               <div class="btn-group">
@@ -25,15 +26,12 @@
                   Register  
                 </button>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="./register.html" style="color: rgb(0, 0, 23); font-weight: 400;">Student</a>
-                  <a class="dropdown-item" href="./register.html" style="color: rgb(0, 0, 23); font-weight: 400;">Agency</a>
+                  <a class="dropdown-item" href="./register-student.html" style="color: rgb(0, 0, 23); font-weight: 400;">Student</a>
+                  <a class="dropdown-item" href="./register-agency.html" style="color: rgb(0, 0, 23); font-weight: 400;">Agency</a>
                 </div>
               </div>
             </li>
-            <li> <form class="form-inline my-2 my-lg-0" style="display: flex;">
-                <input class="form-control mr-sm-2" type="search" placeholder="Browse our selection..." aria-label="Search" style="margin: 10px;">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="margin: 10px;">Search</button>
-              </form> </li>
+            
         </div>
         <hr>
     </div>
@@ -46,6 +44,21 @@
             <div class="text-img1"><p> PortfolioBase is a platform that helps design students connect with employers through their portfolios.
 
             </p> </div>
+            <div class="email form" style="display:flex; flex-direction: row; position:absolute; z-index:1; top: 50%; left: 5%;">
+              <div style="margin-right: 10px">
+                <input type="text" id="firstName" class="form-control form-control-lg" placeholder="First Name"/>
+            
+              </div>
+              <div style="margin-right: 10px">
+                <input type="text" id="lastName" class="form-control form-control-lg" placeholder="Last Name"/>
+            
+              </div>
+              <div  style="margin-right: 10px; width: 600px;">
+                <input type="email" id="typeEmailX-2" class="form-control form-control-lg" placeholder="E-mail" />
+              </div>
+        
+        </div>
+        
         </div>
         <div class="talent-introduction">
             <div class="talent-introduction-box1">
@@ -75,7 +88,7 @@
                 
                 <h3 class="fs-2 text-body-emphasis">Students</h3>
                 <p>PortfolioBase helps students get that much need exposure for their portfolios and design projects. It provides a platform for students to share their creative ideas with the world.</p>
-                <a href="./register.html" class="icon-link">
+                <a href="./register-student.html" class="icon-link">
                   Learn more
                   <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
                 </a>
@@ -83,7 +96,7 @@
               <div class="feature col" style="margin: 20px;">
                 <h3 class="fs-2 text-body-emphasis">Agencies</h3>
                 <p>PortfolioBase assists design agencies looking to hire fresh talent with new and innovative ideas. Our platform is designed to help you meet the industry's best and the brightest.</p>
-                <a href="./register.html" class="icon-link">
+                <a href="./register-agency.html" class="icon-link">
                   Learn more
                   <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
                 </a>

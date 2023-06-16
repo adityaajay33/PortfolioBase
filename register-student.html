@@ -15,9 +15,10 @@
             <a href="./index.html"><img class="logo" src="./assets/Lead-Symbol.jpg" height="50px"></a>
         </div>
         <div class="container">
-
-            <li> <button type="button" class="btn btn-secondary">About Us</button></li>
-            <li> <a href='./portfolios.html'><button type="button" class="btn btn-secondary">Browse</button> </a> </li>
+            <li> <form class="form-inline my-2 my-lg-0" style="display: flex;">
+              <input class="form-control mr-sm-2" type="search" placeholder="Browse our selection..." aria-label="Search" style="margin: 10px;">
+            </form> </li>
+            <li> <a href='./portfolios.html'><button type="button" class="btn btn-secondary">Browse Portfolios</button> </a> </li>
             <li> <button type="button" class="btn btn-secondary">Log In</button></li>
             <li>
               <div class="btn-group">
@@ -25,15 +26,12 @@
                   Register  
                 </button>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="./register.html" style="color: rgb(0, 0, 23); font-weight: 400;">Student</a>
-                  <a class="dropdown-item" href="./register.html" style="color: rgb(0, 0, 23); font-weight: 400;">Agency</a>
+                  <a class="dropdown-item" href="./register-student.html" style="color: rgb(0, 0, 23); font-weight: 400;">Student</a>
+                  <a class="dropdown-item" href="./register-agency.html" style="color: rgb(0, 0, 23); font-weight: 400;">Agency</a>
                 </div>
               </div>
             </li>
-            <li> <form class="form-inline my-2 my-lg-0" style="display: flex;">
-                <input class="form-control mr-sm-2" type="search" placeholder="Browse our selection..." aria-label="Search" style="margin: 10px;">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="margin: 10px;">Search</button>
-              </form> </li>
+            
         </div>
         <hr>
     </div>
@@ -42,7 +40,7 @@
         <div class="registration-form">
             
             
-            <div class="headline-reg" style="font-size: 2rem; color:rgb(12, 12, 73); margin-left: 10px; grid-column: span 2; text-align: left;">
+            <div class="headline-reg" style="font-size: 2rem; color:rgb(12, 12, 73); margin-left: 10px; grid-column: span 2; text-align: left; font-weight: 600;">
                 Register
             </div>
             <div>
@@ -53,7 +51,7 @@
                 <input type="text" id="lastName" class="form-control form-control-lg" placeholder="Last Name"/>
             
             </div>
-            <div style="grid-column: span 2;">
+            <div style="grid-column: span 2; display: flex; flex-direction: row;">
                 <input type="email" id="typeEmailX-2" class="form-control form-control-lg" placeholder="E-mail" />
                 
             

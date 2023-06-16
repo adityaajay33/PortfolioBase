@@ -84,7 +84,7 @@ li{
 .text-img {
     position: absolute;
     text-align: left;
-    top: 40%;
+    top: 20%;
     left: 10%;
     transform: translate(-10%, -50%);
     font-size: 5rem;
@@ -95,7 +95,7 @@ li{
 .text-img1 {
     position: absolute;
     text-align: left;
-    top: 62%;
+    top: 38%;
     left: 11%;
     transform: translate(-10%, -50%);
     font-size: 2rem;
@@ -159,6 +159,8 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
+    margin-right: 0px;
 }
 
 .talent-introduction-box1{
