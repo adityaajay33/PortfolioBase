@@ -2,39 +2,23 @@
 .header{
     position:fixed;
     max-width: 4400px;
-    display:flex;
+    width: 1380px;
+    display:grid;
+    grid-template-columns: 750px 280px 150px 100px 100px;
+    grid-template-rows: 65px;
     z-index: 2;
     background-color: white;
-    justify-content: space-between;
 }
-.container{
-    
-    display:flex;
-    justify-content: right;
-    align-items: center;
-    gap:20px;
-    padding: 0px 10px 0px 10px;
-    flex-direction: row;
-    right: 10%;
-    width:1380px;
-    margin-left: 50px;
-}
-.header1{
-    font-size: 25px;
-    width: 100px;
-    padding-right: 60px;
-    margin-left: 10px;
-    display: flex;
-    justify-content: center;
-}
+
 .logo{
     display:flex;
     align-items: center;
-    margin: 10px 0px 5px 10px;
+    margin: 7px 0px 5px 10px;
 }
-.container > button{
-    margin-top: 20px;
+.header > div{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .page-content-portfolio{
     padding: 100px 25px 25px 25px;
