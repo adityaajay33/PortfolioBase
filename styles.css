@@ -2,9 +2,9 @@
 .header{
     position:fixed;
     max-width: 4400px;
-    width: 1380px;
+    width: 1370px;
     display:grid;
-    grid-template-columns: 750px 280px 150px 100px 100px;
+    grid-template-columns: 730px 280px 170px 120px 80px;
     grid-template-rows: 65px;
     z-index: 2;
     background-color: white;
@@ -50,7 +50,7 @@ li{
 .pic-container {
 
     height:600px;
-    width: 1380px;
+    width: 1370px;
     background: #2199e9;
     
     /* Chrome 10-25, Safari 5.1-6 */
@@ -88,14 +88,14 @@ li{
 }
 .talent-introduction{
     display: grid;
-    grid-template-columns: 1380px;
+    grid-template-columns: 1370px;
     grid-template-rows: 450px;
 }
 
 .registration-details {
     color:blue;
     height:400px;
-    width: 1380px;
+    width: 1370px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,7 +110,7 @@ li{
 
 .registration-form-box{
     height:800px;
-    width: 1380px;
+    width: 1370px;
     background: #2199e9;
     
     /* Chrome 10-25, Safari 5.1-6 */
@@ -149,7 +149,7 @@ li{
 
 .talent-introduction-box1{
     height:475px;
-    width: 1380px;
+    width: 1370px;
     background: #2199e9;
     
     /* Chrome 10-25, Safari 5.1-6 */
